@@ -20,5 +20,24 @@ namespace CalculateorProject
         private string Num1 = "";
         private string Num2 = "";
         private string Operation = "";
+        private void EnterTheFirstAndSecondNumbers(string Num)
+        {
+            if (Operation == "")
+            {
+                Num1 += Num;
+                lblScreen.Text += Num1;
+            }
+
+            else
+            {
+                if (Num2 == "")
+                {
+                    lblScreen.Text = "";
+                }
+
+                Num2 += Num;
+                lblScreen.Text += Num2;
+            }
+        }
     }
 }
