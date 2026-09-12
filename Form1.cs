@@ -68,6 +68,14 @@ namespace CalculateorProject
             lblScreen.Text = Result.ToString();
         }
 
+        private void ClearCalculator()
+        {
+            Num1 = "";
+            Num2 = "";
+            Operation = "";
+            lblScreen.Text = "";
+        }
+
         private void btnNum_7_Click(object sender, EventArgs e)
         {
             EnterTheFirstAndSecondNumbers("7");
@@ -141,6 +149,11 @@ namespace CalculateorProject
         private void btnEquals_Click(object sender, EventArgs e)
         {
             CalculatingAndDisplayingTheResult();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            ClearCalculator();
         }
     }
 }

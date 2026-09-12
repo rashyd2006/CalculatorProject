@@ -52,6 +52,7 @@
             // 
             // btnNum_0
             // 
+            this.btnNum_0.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_0.Location = new System.Drawing.Point(192, 332);
             this.btnNum_0.Name = "btnNum_0";
             this.btnNum_0.Size = new System.Drawing.Size(75, 47);
@@ -62,6 +63,7 @@
             // 
             // btnNum_3
             // 
+            this.btnNum_3.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_3.Location = new System.Drawing.Point(324, 260);
             this.btnNum_3.Name = "btnNum_3";
             this.btnNum_3.Size = new System.Drawing.Size(75, 43);
@@ -72,6 +74,7 @@
             // 
             // btnNum_2
             // 
+            this.btnNum_2.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_2.Location = new System.Drawing.Point(192, 260);
             this.btnNum_2.Name = "btnNum_2";
             this.btnNum_2.Size = new System.Drawing.Size(75, 43);
@@ -82,6 +85,7 @@
             // 
             // btnNum_1
             // 
+            this.btnNum_1.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_1.Location = new System.Drawing.Point(61, 260);
             this.btnNum_1.Name = "btnNum_1";
             this.btnNum_1.Size = new System.Drawing.Size(75, 43);
@@ -92,6 +96,7 @@
             // 
             // btnNum_6
             // 
+            this.btnNum_6.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_6.Location = new System.Drawing.Point(324, 179);
             this.btnNum_6.Name = "btnNum_6";
             this.btnNum_6.Size = new System.Drawing.Size(75, 43);
@@ -102,6 +107,7 @@
             // 
             // btnNum_5
             // 
+            this.btnNum_5.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_5.Location = new System.Drawing.Point(192, 179);
             this.btnNum_5.Name = "btnNum_5";
             this.btnNum_5.Size = new System.Drawing.Size(75, 43);
@@ -112,6 +118,7 @@
             // 
             // btnNum_4
             // 
+            this.btnNum_4.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_4.Location = new System.Drawing.Point(61, 179);
             this.btnNum_4.Name = "btnNum_4";
             this.btnNum_4.Size = new System.Drawing.Size(75, 43);
@@ -122,6 +129,7 @@
             // 
             // btnNum_9
             // 
+            this.btnNum_9.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_9.Location = new System.Drawing.Point(324, 101);
             this.btnNum_9.Name = "btnNum_9";
             this.btnNum_9.Size = new System.Drawing.Size(75, 43);
@@ -132,6 +140,7 @@
             // 
             // btnNum_8
             // 
+            this.btnNum_8.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_8.Location = new System.Drawing.Point(192, 101);
             this.btnNum_8.Name = "btnNum_8";
             this.btnNum_8.Size = new System.Drawing.Size(75, 43);
@@ -142,6 +151,7 @@
             // 
             // btnNum_7
             // 
+            this.btnNum_7.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNum_7.Location = new System.Drawing.Point(61, 101);
             this.btnNum_7.Name = "btnNum_7";
             this.btnNum_7.Size = new System.Drawing.Size(75, 43);
@@ -152,6 +162,7 @@
             // 
             // btnOp_Div
             // 
+            this.btnOp_Div.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOp_Div.Location = new System.Drawing.Point(516, 97);
             this.btnOp_Div.Name = "btnOp_Div";
             this.btnOp_Div.Size = new System.Drawing.Size(75, 43);
@@ -162,6 +173,7 @@
             // 
             // btnOp_Addition
             // 
+            this.btnOp_Addition.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOp_Addition.Location = new System.Drawing.Point(516, 175);
             this.btnOp_Addition.Name = "btnOp_Addition";
             this.btnOp_Addition.Size = new System.Drawing.Size(75, 43);
@@ -172,6 +184,7 @@
             // 
             // btnEquals
             // 
+            this.btnEquals.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEquals.Location = new System.Drawing.Point(516, 256);
             this.btnEquals.Name = "btnEquals";
             this.btnEquals.Size = new System.Drawing.Size(75, 43);
@@ -182,15 +195,18 @@
             // 
             // btnClear
             // 
+            this.btnClear.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(634, 97);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 43);
             this.btnClear.TabIndex = 23;
             this.btnClear.Text = "AC";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnOp_Sub
             // 
+            this.btnOp_Sub.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOp_Sub.Location = new System.Drawing.Point(634, 175);
             this.btnOp_Sub.Name = "btnOp_Sub";
             this.btnOp_Sub.Size = new System.Drawing.Size(75, 43);
@@ -201,6 +217,7 @@
             // 
             // btnOp_Multi
             // 
+            this.btnOp_Multi.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOp_Multi.Location = new System.Drawing.Point(634, 256);
             this.btnOp_Multi.Name = "btnOp_Multi";
             this.btnOp_Multi.Size = new System.Drawing.Size(75, 43);
@@ -221,6 +238,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(469, 362);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 46);
@@ -230,6 +248,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(634, 362);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 46);
@@ -240,12 +259,14 @@
             // lblScreen
             // 
             this.lblScreen.BackColor = System.Drawing.Color.Blue;
+            this.lblScreen.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScreen.Location = new System.Drawing.Point(61, 29);
             this.lblScreen.Multiline = true;
             this.lblScreen.Name = "lblScreen";
             this.lblScreen.ReadOnly = true;
             this.lblScreen.Size = new System.Drawing.Size(338, 50);
             this.lblScreen.TabIndex = 19;
+            this.lblScreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
