@@ -16,5 +16,9 @@ namespace CalculateorProject
         {
             InitializeComponent();
         }
+
+        private string Num1 = "";
+        private string Num2 = "";
+        private string Operation = "";
     }
 }

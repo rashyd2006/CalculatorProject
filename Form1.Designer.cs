@@ -38,7 +38,6 @@
             this.btnNum_9 = new System.Windows.Forms.Button();
             this.btnNum_8 = new System.Windows.Forms.Button();
             this.btnNum_7 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.btnOp_Div = new System.Windows.Forms.Button();
             this.btnOp_Addition = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
@@ -48,6 +47,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.lblScreen = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnNum_0
@@ -140,16 +140,6 @@
             this.btnNum_7.Text = "7";
             this.btnNum_7.UseVisualStyleBackColor = true;
             // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Blue;
-            this.textBox1.Location = new System.Drawing.Point(61, 29);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(338, 50);
-            this.textBox1.TabIndex = 19;
-            // 
             // btnOp_Div
             // 
             this.btnOp_Div.Location = new System.Drawing.Point(516, 97);
@@ -232,6 +222,16 @@
             this.button2.Text = "Convert To Binary";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // lblScreen
+            // 
+            this.lblScreen.BackColor = System.Drawing.Color.Blue;
+            this.lblScreen.Location = new System.Drawing.Point(61, 29);
+            this.lblScreen.Multiline = true;
+            this.lblScreen.Name = "lblScreen";
+            this.lblScreen.ReadOnly = true;
+            this.lblScreen.Size = new System.Drawing.Size(338, 50);
+            this.lblScreen.TabIndex = 19;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -247,7 +247,7 @@
             this.Controls.Add(this.btnEquals);
             this.Controls.Add(this.btnOp_Addition);
             this.Controls.Add(this.btnOp_Div);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lblScreen);
             this.Controls.Add(this.btnNum_3);
             this.Controls.Add(this.btnNum_2);
             this.Controls.Add(this.btnNum_1);
@@ -277,7 +277,6 @@
         private System.Windows.Forms.Button btnNum_9;
         private System.Windows.Forms.Button btnNum_8;
         private System.Windows.Forms.Button btnNum_7;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button btnOp_Div;
         private System.Windows.Forms.Button btnOp_Addition;
         private System.Windows.Forms.Button btnEquals;
@@ -287,6 +286,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox lblScreen;
     }
 }
 
