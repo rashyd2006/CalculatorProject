@@ -117,5 +117,25 @@ namespace CalculateorProject
         {
             EnterTheFirstAndSecondNumbers("0");
         }
+
+        private void btnOp_Div_Click(object sender, EventArgs e)
+        {
+            Operation = "/";
+        }
+
+        private void btnOp_Addition_Click(object sender, EventArgs e)
+        {
+            Operation = "+";
+        }
+
+        private void btnOp_Sub_Click(object sender, EventArgs e)
+        {
+            Operation = "-";
+        }
+
+        private void btnOp_Multi_Click(object sender, EventArgs e)
+        {
+            Operation = "×";
+        }
     }
 }
