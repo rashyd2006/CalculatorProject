@@ -137,5 +137,10 @@ namespace CalculateorProject
         {
             Operation = "×";
         }
+
+        private void btnEquals_Click(object sender, EventArgs e)
+        {
+            CalculatingAndDisplayingTheResult();
+        }
     }
 }
