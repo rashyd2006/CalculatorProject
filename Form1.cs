@@ -155,5 +155,11 @@ namespace CalculateorProject
         {
             ClearCalculator();
         }
+
+        private void btnConvertBinToDec_Click(object sender, EventArgs e)
+        {
+            Form frmConvertBinToDec = new frmBinaryToDecimal();
+            frmConvertBinToDec.Show();
+        }
     }
 }
