@@ -30,7 +30,7 @@
         {
             this.lblTitle = new System.Windows.Forms.Label();
             this.lblInputPrompt = new System.Windows.Forms.Label();
-            this.txtBinaryInput = new System.Windows.Forms.TextBox();
+            this.txtDecimalInput = new System.Windows.Forms.TextBox();
             this.btnConvert = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.lblResultText = new System.Windows.Forms.Label();
@@ -55,13 +55,13 @@
             this.lblInputPrompt.TabIndex = 1;
             this.lblInputPrompt.Text = "Enter A Decimal Number : ";
             // 
-            // txtBinaryInput
+            // txtDecimalInput
             // 
-            this.txtBinaryInput.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBinaryInput.Location = new System.Drawing.Point(310, 115);
-            this.txtBinaryInput.Name = "txtBinaryInput";
-            this.txtBinaryInput.Size = new System.Drawing.Size(217, 29);
-            this.txtBinaryInput.TabIndex = 2;
+            this.txtDecimalInput.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecimalInput.Location = new System.Drawing.Point(310, 115);
+            this.txtDecimalInput.Name = "txtDecimalInput";
+            this.txtDecimalInput.Size = new System.Drawing.Size(217, 29);
+            this.txtDecimalInput.TabIndex = 2;
             // 
             // btnConvert
             // 
@@ -72,6 +72,7 @@
             this.btnConvert.TabIndex = 3;
             this.btnConvert.Text = "Convert";
             this.btnConvert.UseVisualStyleBackColor = true;
+            this.btnConvert.Click += new System.EventHandler(this.btnConvert_Click);
             // 
             // btnDelete
             // 
@@ -111,7 +112,7 @@
             this.Controls.Add(this.lblResultText);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnConvert);
-            this.Controls.Add(this.txtBinaryInput);
+            this.Controls.Add(this.txtDecimalInput);
             this.Controls.Add(this.lblInputPrompt);
             this.Controls.Add(this.lblTitle);
             this.Name = "frmDecimalToBinary";
@@ -125,7 +126,7 @@
 
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.Label lblInputPrompt;
-        private System.Windows.Forms.TextBox txtBinaryInput;
+        private System.Windows.Forms.TextBox txtDecimalInput;
         private System.Windows.Forms.Button btnConvert;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Label lblResultText;
