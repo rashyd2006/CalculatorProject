@@ -28,12 +28,107 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblInputPrompt = new System.Windows.Forms.Label();
+            this.txtBinaryInput = new System.Windows.Forms.TextBox();
+            this.btnConvert = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.lblResultText = new System.Windows.Forms.Label();
+            this.lblResultValue = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.Font = new System.Drawing.Font("Tahoma", 19.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Location = new System.Drawing.Point(30, 25);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(585, 51);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "Convert From Decimal To Binary";
+            // 
+            // lblInputPrompt
+            // 
+            this.lblInputPrompt.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInputPrompt.Location = new System.Drawing.Point(37, 111);
+            this.lblInputPrompt.Name = "lblInputPrompt";
+            this.lblInputPrompt.Size = new System.Drawing.Size(277, 23);
+            this.lblInputPrompt.TabIndex = 1;
+            this.lblInputPrompt.Text = "Enter A Decimal Number : ";
+            // 
+            // txtBinaryInput
+            // 
+            this.txtBinaryInput.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBinaryInput.Location = new System.Drawing.Point(310, 115);
+            this.txtBinaryInput.Name = "txtBinaryInput";
+            this.txtBinaryInput.Size = new System.Drawing.Size(217, 29);
+            this.txtBinaryInput.TabIndex = 2;
+            // 
+            // btnConvert
+            // 
+            this.btnConvert.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvert.Location = new System.Drawing.Point(310, 151);
+            this.btnConvert.Name = "btnConvert";
+            this.btnConvert.Size = new System.Drawing.Size(90, 35);
+            this.btnConvert.TabIndex = 3;
+            this.btnConvert.Text = "Convert";
+            this.btnConvert.UseVisualStyleBackColor = true;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelete.Location = new System.Drawing.Point(441, 150);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(86, 36);
+            this.btnDelete.TabIndex = 4;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
+            // lblResultText
+            // 
+            this.lblResultText.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultText.Location = new System.Drawing.Point(58, 226);
+            this.lblResultText.Name = "lblResultText";
+            this.lblResultText.Size = new System.Drawing.Size(149, 23);
+            this.lblResultText.TabIndex = 5;
+            this.lblResultText.Text = "The Result : ";
+            // 
+            // lblResultValue
+            // 
+            this.lblResultValue.BackColor = System.Drawing.Color.White;
+            this.lblResultValue.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultValue.Location = new System.Drawing.Point(194, 226);
+            this.lblResultValue.Name = "lblResultValue";
+            this.lblResultValue.Size = new System.Drawing.Size(188, 35);
+            this.lblResultValue.TabIndex = 6;
+            // 
+            // frmDecimalToBinary
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.Color.SpringGreen;
+            this.ClientSize = new System.Drawing.Size(693, 278);
+            this.Controls.Add(this.lblResultValue);
+            this.Controls.Add(this.lblResultText);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnConvert);
+            this.Controls.Add(this.txtBinaryInput);
+            this.Controls.Add(this.lblInputPrompt);
+            this.Controls.Add(this.lblTitle);
+            this.Name = "frmDecimalToBinary";
             this.Text = "frmDecimalToBinary";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblInputPrompt;
+        private System.Windows.Forms.TextBox txtBinaryInput;
+        private System.Windows.Forms.Button btnConvert;
+        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Label lblResultText;
+        private System.Windows.Forms.Label lblResultValue;
     }
 }
