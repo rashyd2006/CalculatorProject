@@ -161,5 +161,11 @@ namespace CalculateorProject
             Form frmConvertBinToDec = new frmBinaryToDecimal();
             frmConvertBinToDec.Show();
         }
+
+        private void btnConvertDecToBin_Click(object sender, EventArgs e)
+        {
+            Form frmConvertDecToBin = new frmDecimalToBinary();
+            frmConvertDecToBin.Show();
+        }
     }
 }

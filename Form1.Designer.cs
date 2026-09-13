@@ -46,7 +46,7 @@
             this.btnOp_Multi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnConvertBinToDec = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnConvertDecToBin = new System.Windows.Forms.Button();
             this.lblScreen = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -247,15 +247,16 @@
             this.btnConvertBinToDec.UseVisualStyleBackColor = true;
             this.btnConvertBinToDec.Click += new System.EventHandler(this.btnConvertBinToDec_Click);
             // 
-            // button2
+            // btnConvertDecToBin
             // 
-            this.button2.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(634, 362);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(124, 46);
-            this.button2.TabIndex = 28;
-            this.button2.Text = "Convert To Binary";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnConvertDecToBin.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvertDecToBin.Location = new System.Drawing.Point(634, 362);
+            this.btnConvertDecToBin.Name = "btnConvertDecToBin";
+            this.btnConvertDecToBin.Size = new System.Drawing.Size(124, 46);
+            this.btnConvertDecToBin.TabIndex = 28;
+            this.btnConvertDecToBin.Text = "Convert To Binary";
+            this.btnConvertDecToBin.UseVisualStyleBackColor = true;
+            this.btnConvertDecToBin.Click += new System.EventHandler(this.btnConvertDecToBin_Click);
             // 
             // lblScreen
             // 
@@ -275,7 +276,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(769, 427);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnConvertDecToBin);
             this.Controls.Add(this.btnConvertBinToDec);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOp_Multi);
@@ -322,7 +323,7 @@
         private System.Windows.Forms.Button btnOp_Multi;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnConvertBinToDec;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnConvertDecToBin;
         private System.Windows.Forms.TextBox lblScreen;
     }
 }
