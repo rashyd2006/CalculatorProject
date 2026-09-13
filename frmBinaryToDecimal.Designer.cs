@@ -58,15 +58,16 @@
             // 
             // txtBinaryInput
             // 
-            this.txtBinaryInput.Location = new System.Drawing.Point(335, 126);
+            this.txtBinaryInput.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBinaryInput.Location = new System.Drawing.Point(323, 131);
             this.txtBinaryInput.Name = "txtBinaryInput";
-            this.txtBinaryInput.Size = new System.Drawing.Size(201, 24);
+            this.txtBinaryInput.Size = new System.Drawing.Size(201, 29);
             this.txtBinaryInput.TabIndex = 2;
             // 
             // btnConvert
             // 
             this.btnConvert.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvert.Location = new System.Drawing.Point(335, 166);
+            this.btnConvert.Location = new System.Drawing.Point(323, 166);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(96, 29);
             this.btnConvert.TabIndex = 3;
@@ -77,7 +78,7 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(450, 164);
+            this.btnDelete.Location = new System.Drawing.Point(438, 166);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(86, 32);
             this.btnDelete.TabIndex = 4;
@@ -97,7 +98,8 @@
             // lblResultValue
             // 
             this.lblResultValue.BackColor = System.Drawing.Color.White;
-            this.lblResultValue.Location = new System.Drawing.Point(197, 238);
+            this.lblResultValue.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultValue.Location = new System.Drawing.Point(197, 245);
             this.lblResultValue.Name = "lblResultValue";
             this.lblResultValue.Size = new System.Drawing.Size(140, 23);
             this.lblResultValue.TabIndex = 6;
