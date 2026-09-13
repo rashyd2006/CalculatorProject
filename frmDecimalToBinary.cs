@@ -17,6 +17,11 @@ namespace CalculateorProject
             InitializeComponent();
         }
 
+        private void Delete()
+        {
+            txtDecimalInput.Text = string.Empty;
+            lblResultValue.Text = string.Empty;
+        }
         private void ConvertDecimalToBinary()
         {
             string DecimalStr;
@@ -36,6 +41,10 @@ namespace CalculateorProject
         private void btnConvert_Click(object sender, EventArgs e)
         {
             ConvertDecimalToBinary();
+        }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Delete();
         }
     }
 }
