@@ -45,7 +45,7 @@
             this.btnOp_Sub = new System.Windows.Forms.Button();
             this.btnOp_Multi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnConvertBinToDec = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.lblScreen = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -236,15 +236,16 @@
             this.label1.TabIndex = 26;
             this.label1.Text = "More Fetures :";
             // 
-            // button1
+            // btnConvertBinToDec
             // 
-            this.button1.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(469, 362);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 46);
-            this.button1.TabIndex = 27;
-            this.button1.Text = " Convert Binary To Decimal";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConvertBinToDec.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConvertBinToDec.Location = new System.Drawing.Point(469, 362);
+            this.btnConvertBinToDec.Name = "btnConvertBinToDec";
+            this.btnConvertBinToDec.Size = new System.Drawing.Size(135, 46);
+            this.btnConvertBinToDec.TabIndex = 27;
+            this.btnConvertBinToDec.Text = " Convert Binary To Decimal";
+            this.btnConvertBinToDec.UseVisualStyleBackColor = true;
+            this.btnConvertBinToDec.Click += new System.EventHandler(this.btnConvertBinToDec_Click);
             // 
             // button2
             // 
@@ -275,7 +276,7 @@
             this.BackColor = System.Drawing.Color.SpringGreen;
             this.ClientSize = new System.Drawing.Size(769, 427);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnConvertBinToDec);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOp_Multi);
             this.Controls.Add(this.btnOp_Sub);
@@ -320,7 +321,7 @@
         private System.Windows.Forms.Button btnOp_Sub;
         private System.Windows.Forms.Button btnOp_Multi;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnConvertBinToDec;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox lblScreen;
     }
