@@ -36,9 +36,18 @@ namespace CalculateorProject
 
             lblResultValue.Text = Convert.ToString(DecimalNum);
         }
+        private void Delete()
+        {
+            txtBinaryInput.Text = "";
+            lblResultValue.Text = "";
+        }
         private void btnConvert_Click(object sender, EventArgs e)
         {
             ConvertBinaryToDecimal();
+        }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Delete();
         }
     }
 }
