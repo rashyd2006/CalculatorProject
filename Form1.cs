@@ -62,7 +62,15 @@ namespace CalculateorProject
 
             else
             {
-                Result = Convert.ToInt32(Num1) / Convert.ToInt32(Num2);
+                if (Num2 == "0")
+                {
+                    MessageBox.Show("You can not Divide on Zero [0]", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+                else
+                {
+                    Result = Convert.ToInt32(Num1) / Convert.ToInt32(Num2);
+                }
             }
 
             lblScreen.Text = Result.ToString();
