@@ -31,7 +31,7 @@ namespace CalculateorProject
 
             else
             {
-                if (Num2 == "")
+                if (Num2 == "0")
                 {
                     lblScreen.Text = "";
                 }
