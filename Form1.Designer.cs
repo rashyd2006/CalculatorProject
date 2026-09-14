@@ -260,7 +260,7 @@
             // 
             // lblScreen
             // 
-            this.lblScreen.BackColor = System.Drawing.Color.Blue;
+            this.lblScreen.BackColor = System.Drawing.Color.Lavender;
             this.lblScreen.Font = new System.Drawing.Font("Tahoma", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScreen.Location = new System.Drawing.Point(61, 29);
             this.lblScreen.Multiline = true;
